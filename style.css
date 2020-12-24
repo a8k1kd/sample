@@ -1,0 +1,222 @@
+body {
+  font-family: 'Roboto','Noto Sans JP', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+.section-title {
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin-bottom: 70px;
+}
+
+p {
+  line-height: 30px;
+}
+
+header {
+  background-color: #1B1310;
+  color: #FFFFFF;
+  height: 74px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 120px;
+  border-bottom: 1px solid white;
+}
+
+header a {
+  color: white;
+}
+
+header .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .nav-item {
+  margin-right: 55px;
+}
+
+.fv {
+  height: 740px;
+  background: url(img/fv-bgi@2x.jpg) no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fv .main-copy {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+  padding: 34px 42px;
+  letter-spacing: 0.05em;
+}
+
+.section-wrapper {
+  padding: 100px 15% 50px;
+}
+
+.about-title {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 72px 0 42px 0;
+  letter-spacing: 0.1em;
+}
+
+.text_about {
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+
+.text-wrapper_service, .img-wrapper_service {
+  max-width: 480px;
+}
+
+.text-wrapper_service p {
+  margin-top: 42px;
+  letter-spacing: 0.05em;
+}
+
+.content-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin: 50px 0;
+}
+
+.service-title {
+  font-size: 24px;
+  line-height: 48px;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+}
+
+.section-text_service {
+  font-size: 13px;
+}
+
+.card-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card-item {
+  max-width: 320px;
+  margin-right: 10px;
+  -webkit-box-shadow: 0 0 6px rgba(27, 19, 16, 0.4);
+          box-shadow: 0 0 6px rgba(27, 19, 16, 0.4);
+}
+
+.text-news {
+  font-size: 13px;
+  color: #141414;
+  padding: 25px 32px;
+  font-family: 'Hiragino Kaku Gothic ProN';
+}
+
+.form {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #141414;
+  font-family: 'Hiragino Kaku Gothic ProN';
+}
+
+.form label {
+  font-size: 16px;
+  display: block;
+  padding: 3px 0;
+  margin-top: 22px;
+}
+
+.form input, .form textarea {
+  width: 100%;
+}
+
+.form .form-send {
+  text-align: center;
+}
+
+.form .form-btn {
+  max-width: 235px;
+  height: 59px;
+  border-radius: 51em;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  margin-top: 50px;
+}
+
+footer {
+  background-color: #1B1310;
+  height: 80px;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+  font-size: 14px;
+  line-height: 80px;
+}
+/*# sourceMappingURL=style.css.map */
